@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import sys, os    
 from random import randint, choice
 from tkinter import *
