@@ -1,4 +1,8 @@
 # Kanji Meaning Help
+### Setup
+
+`python3 -m pip install git+https://github.com/y124/kanjimeaninghelp.git`
+
 ### Help
 -fs: Full Study, will show characters in order
 
@@ -11,6 +15,8 @@
 -sl: Start Level the level you start on
 
 -h: Help message
+
+run kanjimemo to change/manually set memos
 ### Recommended Settings:
 Casual: -r
 
