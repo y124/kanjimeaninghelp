@@ -2,12 +2,14 @@ import setuptools
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
-
+with open('requirements.txt') as f:
+    requirements = f.read().splitlines()
 
 setuptools.setup(
      name='kanjilearn',  
      version='0.1',
      scripts=['kanji.py'] ,
+     install_requires=requirements,
      author="y124",
      author_email="y124@y124.tk",
      description="Learn kanji with tkinter app",
