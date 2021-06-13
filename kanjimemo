@@ -15,7 +15,7 @@ load()
 print('Welcome to memo change, you edit your memos here')
 while True:
     a = input('Click enter to continue or type anything the click enter to exit\n>>> ')
-    if a is not '':
+    if a != '':
         exit()
     memos[input('Type/copy paste the kanji you want to change the memo of: ')] = input('Type the memo: ')
     save()
