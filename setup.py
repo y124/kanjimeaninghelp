@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
      name='kanjilearn',  
      version='0.1',
-     scripts=['kanjilearn'] ,
+     scripts=['kanji.py'] ,
      author="y124",
      author_email="y124@y124.tk",
      description="Learn kanji with tkinter app",
