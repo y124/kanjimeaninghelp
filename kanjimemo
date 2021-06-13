@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+import json, os
+folder = os.path.dirname(os.path.realpath(__file__))
+memos = {}
+def save():
+    global memos
+    a = open(folder + '/data1.json', 'w')
+    json.dump(memos, a)
+    
+def load():
+    global memos
+    a = open(folder + '/data1.json')
+    memos = json.load(a)
+load()
+print('Welcome to memo change, you edit your memos here')
+while True:
+    a = input('Click enter to continue or type anything the click enter to exit\n>>> ')
+    if a is not '':
+        exit()
+    memos[input('Type/copy paste the kanji you want to change the memo of: ')] = input('Type the memo: ')
+    save()
