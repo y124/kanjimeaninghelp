@@ -1,0 +1,8 @@
+Recommended Settings:
+Casual: -r
+Hardcore: -u
+Medium Core: -u -r/-d 10 -r
+Test: -u -fs
+Easy: -r -d 1
+NoFail: -r -d 0
+Boring But Efficient: -fs -d 10
