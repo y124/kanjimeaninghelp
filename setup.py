@@ -8,7 +8,7 @@ with open('requirements.txt') as f:
 setuptools.setup(
      name='kanjilearn',  
      version='0.1',
-     scripts=['kanjilearn', 'data1.json', 'data2.json'] ,
+     scripts=['kanjilearn', 'data1.json', 'data2.json', 'kanjimemo', 'RAWKANJI'] ,
      install_requires=requirements,
      author="y124",
      author_email="y124@y124.tk",
